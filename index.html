@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Overlay</title>
+</head>
+
+<body>
+
+    <p>Online Meetup. <button class="rsvp">Start</button></p>
+    <div id="overlay">
+        <div id="registration">
+            <a href="#" class="close">Close</a>
+            <h1>Online Meetup</h1>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <a href="#" class="confirm">Confirm</a>
+        </div>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+
+    
+    <!-- All Belongs To Main Source File -->
+    <code>
+        clicking on ".rsvp" adds class "open" on "#overlay"
+        clicking on ".close, .confirm" removes class "open" on "#overlay"
+     </code>
+</body>
+
+</html>
